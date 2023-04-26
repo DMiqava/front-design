@@ -11,3 +11,10 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+var d = document.getElementById("text-input");
+var wipe = document.getElementById("cls");
+wipe.addEventListener("click", () => {
+    alert("Text: " + d.value + " did not found!")
+    d.value = ' ';
+})

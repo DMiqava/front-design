@@ -6,7 +6,10 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-  }
+}
+#navbar{
+    display: flex;
+}
 .header{
     overflow: hidden;
     display: flex;
@@ -202,4 +205,14 @@ a{
     border-bottom-color: gray;
     border-bottom-width: 1px;
     padding: 5px;
+}
+
+
+#text-input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    height: 25px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #5D5E64;
 }
