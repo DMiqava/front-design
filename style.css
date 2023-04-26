@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+.header{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: #393B47;
+    color: white;
+    height: 4rem;
+    font-size: 1.2rem;
+    justify-content: center;
+}
+#first-section{
+    width: 100%;
+    height: 100vh;
+    background: url(icons/427408.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footer{
+    color: rgb(181, 181, 181);
+}
+.ul{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.li{
+    list-style: none;
+    cursor: pointer;
+}
+.a:hover{
+    color: rgb(39,184,153);
+    transition: 0.2s ease-in;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+}
+.li:hover{
+    font-size: 1.4rem;
+    transition: 0.2s ease-in;
+    
+}
+.box{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    margin-top: 25rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 32rem;
+}
+.fox-title{
+    width: 100%;
+    height: 30px;
+    font-size: 5rem;
+    color: white;
+    font-weight: 300;
+}
+.fox-text{
+    color: white;
+}
+.left{
+    cursor: pointer;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+.left:hover{
+    transition: 0.3s ease-in;
+    border: 1px solid #393B47;
+}
+.right{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+}
+.right:hover{
+    transition: 0.3s ease-in;
+    border: 1px solid #393B47;
+}
+
+#second-section{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(244, 234, 216);
+}
+.team-div{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 20vh;
+}
+.second-title{
+    font-size: 3rem;
+    color: #5D5E64;
+}
+.second-text{
+    font-size: 0.9rem;
+    color: #5D5E64;
+}
+.second-main{
+    gap: 3rem;
+    display: flex;
+    justify-content: center;
+}
+.staff{
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0 15px 0 15px;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 35rem;
+}
+.span{
+    border-top-style:inset;
+}
+.button{
+    width: 100%;
+    height: 2.5rem;
+    background-color: transparent;
+    border: 2px solid #393B47;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #393B47;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #393B47;
+    color: white;
+    transition: 0.3s ease-in;
+}
+
+#third-section{
+    gap: 4rem;
+    width: 100%;
+    height: 80vh;
+    background: url(icons/sec3.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+}
+.text-info{
+    color: white;
+}
+.p-title{
+    font-weight: bold;
+}
+.p-text{
+    color: rgb(206, 206, 206);
+    font-size: 0.9rem;
+}
+
+.h2-title{
+    color: white;
+}
+.tags-with-border{
+    width: 15rem;
+    height: 90px;
+    gap: 5px;
+    color: white;
+    display: flex;
+}
+.tg{
+    width: fit-content;
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+}
+.container{
+    margin-left: 35rem;
+    display: flex;
+    width: 14rem;
+}
+.li2{
+    color: #c3c3c3;
+    margin-top: 13px;
+    border-bottom-style: inset;
+    border-bottom-color: gray;
+    border-bottom-width: 1px;
+    padding: 5px;
+}
