@@ -17,4 +17,5 @@ var wipe = document.getElementById("cls");
 wipe.addEventListener("click", () => {
     alert("Text: " + d.value + " did not found!")
     d.value = ' ';
+    d.innerHTML.placeholder = 'Search';
 })

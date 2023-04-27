@@ -216,3 +216,79 @@ a{
     font-size: 1.2rem;
     border-bottom: 1px solid #5D5E64;
 }
+
+#travel{
+    width: 100%;
+    height: 90vh;
+    background-color: #c3c3c3;
+}
+.side-scroll{
+    margin: auto auto auto auto;
+    justify-content: center;
+    padding: 5px;
+    width: auto;
+    height: 90vh;
+    display: flex;
+    overflow: auto;
+    white-space: nowrap;
+    gap: 3rem;
+}
+.product{
+    justify-content: center;
+    text-align: center;
+    padding: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 25rem;
+    height: 30rem;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.product-img{
+    width: 370px;
+    height: 230px;
+}
+.product-title{
+    height: 10px;
+    color: #5D5E64;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.priece{
+    font-size: 1.8rem;
+    gap: 1rem;
+}
+.btn{
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid #393B47;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #393B47;
+    transition: 0.2s ease-in;
+    color: white;
+}
+.buy-btn{
+    margin-top: 10px;
+    width: 25rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: 2px solid green;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.buy-btn:hover{
+    background-color: green;
+    transition: 0.2s ease-in;
+    color: white;
+}
+.travel-title{
+    font-size: 3rem;
+    text-align: center;
+    color: #5D5E64;
+}
